@@ -168,7 +168,7 @@ export default {
       rules: {
         name: [{ required: true, message: "供应商不能为空", trigger: "blur" }],
         linkman: [
-          { required: true, message: "联系人不能为空", trigger: "blur" }
+          { required: true, message: "联系人不能是空", trigger: "blur" }
         ]
       }
     };
