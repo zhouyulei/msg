@@ -31,12 +31,8 @@
       </el-form-item>
       <el-form-item>
         <el-button type="primary" @click="fetchData">查询</el-button>
-        <el-button v-if="!isDialog" type="primary" @click="handleAdd"
-          >新增</el-button
-        >
-        <el-button v-if="!isDialog" @click="resetForm('searchForm')"
-          >重置</el-button
-        >
+        <el-button v-if="!isDialog" type="primary" @click="handleAdd">新增</el-button>
+        <el-button v-if="!isDialog" @click="resetForm('searchForm')">重置</el-button>
       </el-form-item>
     </el-form>
     <!-- highlight-current-row 激活单选行

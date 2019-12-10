@@ -2,7 +2,7 @@
   <div class="header">
     <a href="#/">
       <img class="logo" src="@/assets/logo.png" width="25px" />
-      <span class="company">前端框架学习系统</span>
+      <span class="company">沃支付</span>
     </a>
 
     <el-dropdown @command="handleCommand">
@@ -11,11 +11,9 @@
       </span>
       <el-dropdown-menu slot="dropdown">
         <el-dropdown-item icon="el-icon-edit" command="a"
-          >修改密码</el-dropdown-item
-        >
+          >修改密码</el-dropdown-item>
         <el-dropdown-item icon="el-icon-s-fold" command="b"
-          >退出系统</el-dropdown-item
-        >
+          >退出系统</el-dropdown-item>
       </el-dropdown-menu>
     </el-dropdown>
 
@@ -52,8 +50,7 @@
         </el-form-item>
         <el-form-item>
           <el-button type="primary" @click="submitForm('ruleForm')"
-            >提交</el-button
-          >
+            >提交</el-button>
           <el-button @click="$refs['ruleForm'].resetFields()">重置</el-button>
         </el-form-item>
       </el-form>

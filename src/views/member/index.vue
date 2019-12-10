@@ -63,11 +63,7 @@
       <!-- type="index"获取索引值，从1开始 ，label显示标题，prop 数据字段名，width列宽 -->
       <el-table-column type="index" label="序号" width="60"></el-table-column>
       <el-table-column prop="cardNum" label="会员卡号"></el-table-column>
-      <el-table-column
-        prop="name"
-        label="会员姓名"
-        width="90"
-      ></el-table-column>
+      <el-table-column prop="name" label="会员姓名" width="90"></el-table-column>
       <el-table-column prop="birthday" label="会员生日"></el-table-column>
       <el-table-column prop="phone" label="手机号码"></el-table-column>
       <el-table-column prop="integral" label="可用积分"></el-table-column>
